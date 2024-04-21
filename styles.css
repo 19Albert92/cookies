@@ -1,0 +1,61 @@
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./src/styles.css?ngGlobalStyle ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Steppe-Book';
+  src: url('Steppe-Book.ttf');
+}
+@font-face {
+  font-family: 'Steppe-ExtraBold';
+  src: url('Steppe-ExtraBold.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #5243f4;
+  font-family: 'Steppe-Book', sans-serif;
+  color: white;
+}
+a, button {
+  cursor: pointer;
+  transition: all .4s ease;
+  font-family: 'Steppe-Book', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Steppe-ExtraBold', sans-serif;
+}
+
+.btn {
+  padding: 18px 46px;
+  border-radius: 60px;
+  border: none;
+  font-size: 18px;
+}
+.btn.is-main {
+  background-color: white;
+  color: #5243f4;
+}
+.btn.is-main:hover:not(:disabled) {
+  background-color: #dcdcdc;
+}
+.btn.is-violet {
+  color: white;
+  background-color: #5243f4;
+}
+.btn.is-violet:hover {
+  background-color: #3b2cd8;
+}
+.btn.is-violet:disabled {
+  cursor: not-allowed;
+  color: gray;
+  background-color: #343434;
+}
+
+
+/*# sourceMappingURL=styles.css.map*/
